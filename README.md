@@ -6,3 +6,5 @@ it's a cash register where i used
 *css
 
 *vennila js
+
+programing languges to creat this 
