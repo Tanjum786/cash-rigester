@@ -4,6 +4,8 @@
 }
 body{
     background-color:lightcyan;
+    text-align: center;
+    margin: auto;
 }
 .container{
     display: flex;

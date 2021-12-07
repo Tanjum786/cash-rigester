@@ -16,7 +16,7 @@ checkButton.addEventListener("click", function valid() {
     } else {
       showMessage("Do you wanna wash plates?");
     }
-  } else {
+  }else {
     showMessage("invalid Bill Amount your bill amount should be in numbers");
   }
 });
