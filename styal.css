@@ -3,16 +3,16 @@
     --parimary-color:#5B21B6;
 }
 body{
-    background-color:lightcyan;
-    text-align: center;
-    margin: auto;
+    text-align: center   ;    
 }
 .container{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin: auto;
     width: 50rem;
-
-
+    height: 640px;
+    padding: 1px; 
+    background-color:lightgrey;
+    border-radius: 1rem;
 }
 .hadding{
     font-family: 'Montserrat', sans-serif;
@@ -56,15 +56,20 @@ caption{
     margin-bottom: 0.5rem;
 }
 .change-table{
-    width: 50%;
+    width: 70%;
     text-align: center;
     border-collapse: collapse;
     margin: auto;
 
 }
-th,td{
+th{
     border: 2px solid var(--parimary-color);
     border-collapse: collapse;
-    padding:.5rem;
+    padding:0.5rem;
 
+}
+td{
+    border: 2px solid var(--parimary-color);
+    border-collapse: collapse;
+    padding: 1rem;
 }
